@@ -35,12 +35,18 @@ function playRound(playerChoice, computerChoice){
     else {
         console.log(`You Win! ${playerChoice} beats ${computerChoice}`);
     }
+    
+    return playerChoice,computerChoice;
 };
+
+
 
 for (let i = 0; i < 5; i++){
 
     const playerChoice = window.prompt("Enter Your Choice: ").toLowerCase();
     const computerChoice = getComputerChoice();
 
-    console.log(playRound(playerChoice,computerChoice));
+    playRound(playerChoice,computerChoice);
+
+    
 }

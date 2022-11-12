@@ -1,2 +1,2 @@
 # rock-paper-scissor
-Has A Bug: Shows Undefined at the end.
+We’re going to make a simple implementation of grade-school classic “rock paper scissors”. If you don’t know what that is check the Wikipedia article (https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors) or this detailed step-by-step. For the moment we’re just going to play the game from the browser console, but we will revisit this project in a later lesson and add a Graphical User Interface with buttons and text, so don’t forget to keep the code on GitHub!
