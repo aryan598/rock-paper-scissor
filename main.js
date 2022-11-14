@@ -17,23 +17,23 @@ function getComputerChoice(){
 function playRound(playerChoice, computerChoice){
     
     if (playerChoice === 'rock' && computerChoice === 'paper'){
-        document.write("You Lose! Paper beats Rock");
+        document.write("You Lose! Paper beats Rock" + "<br/>");
     }
 
     else if (playerChoice === 'paper' && computerChoice === 'scissor'){
-        document.write("You Lose! Scissor beats Paper");
+        document.write("You Lose! Scissor beats Paper" + "<br />");
     } 
     
     else if (playerChoice === 'scissor' && computerChoice === 'rock'){
-        document.write("You Lose! Rock beats Scissor");
+        document.write("You Lose! Rock beats Scissor" + "<br />");
     }
 
     else if (playerChoice === computerChoice){
-        document.write("It's a Tie.")
+        document.write("It's a Tie." + "<br />")
     }
 
     else {
-        document.write(`You Win! ${playerChoice} beats ${computerChoice}`);
+        document.write(`You Win! ${playerChoice} beats ${computerChoice} ${"<br />"}` );
     }
     
     return playerChoice,computerChoice;
